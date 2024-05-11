@@ -47,7 +47,8 @@ export default function App() {
   return (
     <div className='main'>
           <div>
-              
+              <h3> Weather App</h3>
+    <h4>Please give valid city name to find temperature</h4>
           <input
         value={city}
         onChange={(e) => setCity(e.target.value)}
